@@ -10,4 +10,28 @@
     .price-item:nth-child(even) div:nth-of-type(1) p:nth-of-type(1) {
         @apply text-red-400
     }
+
+    .line-orange {
+        background: rgb(244, 64, 37);
+    }
+
+    .about-h3 {
+        color: rgb(13, 98, 242)
+    }
+}
+
+@layer utilities {
+    .about-container-wrapper {
+        @apply mx-auto;
+        max-width: 1372px;
+    }
+
+    .about-container {
+        @apply mx-auto;
+        max-width: 960px;
+    }
+
+    .w-unset {
+        width: unset;
+    }
 }

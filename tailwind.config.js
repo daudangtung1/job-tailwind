@@ -5,7 +5,16 @@ const plugin = require('tailwindcss/plugin');
 module.exports = {
   content: ["*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Open Sans', 'sans-serif'],
+        'open-sans': ['Open Sans', 'sans-serif'],
+      },
+      colors: {
+        'blue-alpha': 'rgba(10, 103, 233, 0.7)',
+        'blue-solid': '#0a67e9',
+      },
+    },
   },
   plugins: [
     plugin(function ({ addUtilities }) {
