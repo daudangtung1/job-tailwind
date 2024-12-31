@@ -14,6 +14,9 @@ module.exports = {
         'blue-alpha': 'rgba(10, 103, 233, 0.7)',
         'blue-solid': '#0a67e9',
       },
+      screens: {
+        'xs': '410px',
+      },
     },
   },
   plugins: [
@@ -29,6 +32,6 @@ module.exports = {
           };
       }
       addUtilities(utilities, ['responsive']);
-  }),
+    }),
   ],
 }

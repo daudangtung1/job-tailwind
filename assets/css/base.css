@@ -34,4 +34,32 @@
     .w-unset {
         width: unset;
     }
+
+    .bg-blue-dark {
+        background-color: rgb(5, 34, 74);
+    }
+
+    .text-gray {
+        color: #242424;
+    }
+
+    .text-blue-dark-2 {
+        color: rgb(5, 31, 77);
+    }
+
+    .default-orange {
+        color: rgb(242, 67, 13);
+    }
+
+    .bg-blue-about {
+        background-color: rgb(10, 103, 233);
+    }
+
+    .bg-blue-about-2 {
+        background-color: rgb(5, 31, 77);
+    }
+
+    .bg-gray-about {
+        background-color: rgb(234, 242, 254);
+    }
 }
