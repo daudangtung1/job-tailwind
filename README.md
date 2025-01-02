@@ -1,2 +1,6 @@
 Run:
-    npx tailwindcss -i assets/css/base.css -o assets/css/style.css --watch
+    1. npm install
+    2. run:
+        npm run dev
+    or
+        npm run watch
