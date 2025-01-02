@@ -18,6 +18,14 @@
     .about-h3 {
         color: rgb(13, 98, 242)
     }
+
+    /* .faq-1-item:nth-child(odd) {
+        @apply mr-0
+    }
+
+    .faq-1-item:nth-child(even) {
+        margin-left: 42px;
+    } */
 }
 
 @layer utilities {
@@ -43,12 +51,28 @@
         color: #242424;
     }
 
+    .text-blue-dark {
+        color: rgb(5, 34, 74);
+    }
+
     .text-blue-dark-2 {
         color: rgb(5, 31, 77);
     }
 
+    .text-blue-light {
+        color: rgba(10, 103, 233, 0.5);
+    }
+
+    .text-gray-light {
+        color: rgba(5, 34, 75, 0.6);
+    }
+
     .default-orange {
         color: rgb(242, 67, 13);
+    }
+
+    .default-red {
+        color: rgb(244, 64, 37);
     }
 
     .bg-blue-about {
@@ -61,5 +85,9 @@
 
     .bg-gray-about {
         background-color: rgb(234, 242, 254);
+    }
+
+    .bg-default-orange {
+        color: rgb(242, 67, 13);
     }
 }
