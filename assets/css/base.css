@@ -15,7 +15,7 @@
         background: rgb(244, 64, 37);
     }
 
-    .about-h3 {
+    .about-h2 {
         color: rgb(13, 98, 242)
     }
 
@@ -95,8 +95,16 @@
         background-color: rgb(13, 98, 242);
     }
 
+    .bg-blue-about-5 {
+        background-color: rgba(5, 31, 78, 0.9);
+    }
+
     .bg-gray-about {
         background-color: rgb(234, 242, 254);
+    }
+
+    .bg-gray-about-2 {
+        background-color: rgba(234, 242, 254, 0.5);
     }
 
     .bg-default-orange {

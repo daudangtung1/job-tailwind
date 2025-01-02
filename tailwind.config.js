@@ -18,13 +18,14 @@ module.exports = {
       },
       screens: {
         'xs': '410px',
+        'custom-destop': '1800px',
       },
     },
   },
   plugins: [
     plugin(function ({ addUtilities }) {
       const utilities = {};
-      for (let i = 1; i <= 10; i++) {
+      for (let i = 1; i <= 20; i++) {
           utilities[`.break-para-${i}`] = {
               overflow: 'hidden',
               display: '-webkit-box',
