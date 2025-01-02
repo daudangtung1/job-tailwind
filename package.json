@@ -4,5 +4,9 @@
   },
   "dependencies": {
     "typeface-open-sans": "^1.1.13"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i assets/css/base.css -o assets/css/style.css",
+    "watch": "npx tailwindcss -i assets/css/base.css -o assets/css/style.css --watch"
   }
 }

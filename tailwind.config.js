@@ -13,6 +13,8 @@ module.exports = {
       colors: {
         'blue-alpha': 'rgba(10, 103, 233, 0.7)',
         'blue-solid': '#0a67e9',
+        'blue-base': 'rgb(13, 98, 242)',
+        'blue-light': 'rgba(8, 58, 145, 0)',
       },
       screens: {
         'xs': '410px',
