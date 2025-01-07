@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "swiper/swiper.min.css";
+@import "swiper/swiper-bundle.min.css";
+
+@layer base {
+    .ladi-container {
+        @apply mx-auto;
+        max-width: 960px;
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        @apply text-black !text-2xl font-bold;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar {
+        height: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: grey;
+        border-radius: 2px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        border-radius: 2px;
+    }
+}
+
+@layer utilities {
+    #section-1 {
+        @apply relative;
+    }
+
+    .bg-light-black {
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    .lightbox-close {
+        background-image: url('data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23fff%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M23.4144%202.00015L2.00015%2023.4144L0.585938%2022.0002L22.0002%200.585938L23.4144%202.00015Z%22%3E%3C%2Fpath%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M2.00015%200.585938L23.4144%2022.0002L22.0002%2023.4144L0.585938%202.00015L2.00015%200.585938Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+    }
+
+    .section-2-bg {
+        background-image: linear-gradient(rgb(10, 103, 233), rgb(5, 34, 74))
+    }
+}
