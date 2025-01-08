@@ -15,7 +15,11 @@ module.exports = {
         lightGray1: 'rgb(36, 36, 36)',
         lightGray2: 'rgb(84, 84, 84)',
         lightGray3: 'rgb(234, 242, 254)',
-        defaultOrange: 'rgb(244, 64, 37)'
+        defaultOrange: 'rgb(244, 64, 37)',
+        orange1: 'rgb(242, 66, 13)',
+        orange2: 'rgb(242, 67, 13)',
+        darkBlue1: 'rgb(5, 31, 77)',
+        darkBlue2: 'rgb(7, 58, 145)'
       },
       screens: {
         'tablet-lg': '992px',
